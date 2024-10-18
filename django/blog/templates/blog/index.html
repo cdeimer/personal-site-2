@@ -10,7 +10,7 @@
         {% for post in latest_post_list %}
             <div class="post-preview">
                 <h2><a href="{% url 'blog:detail' post.id %}">{{ post.title }}</a></h2>
-                <p>{{ post.content|truncatewords:30 }}</p>
+                <p>{{ post.content|truncatewords:30|safe }}</p>
                 <p><small>Published on {{ post.date_posted }}</small></p>
                 <hr>
             </div>
