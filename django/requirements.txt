@@ -3,6 +3,7 @@ Brotli==1.1.0
 click==8.1.7
 dj-database-url==2.2.0
 Django==5.1.2
+django-ckeditor==6.7.1
 django-ckeditor-5==0.2.14
 django-js-asset==2.2.0
 gunicorn==23.0.0
