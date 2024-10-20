@@ -1,0 +1,55 @@
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background-color: #201a15;
+    color: white;
+}
+
+/* Main title styling */
+.name {
+    font-size: 4em;
+    margin-bottom: 0.2em;
+}
+
+/* Subheading styling */
+.subheading {
+    font-size: 1.5em;
+    color: #aaa;
+}
+
+/* Main content sections */
+.main-content {
+    padding: 25px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Individual content sections */
+.content-section {
+    background-color: white;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1; /* Each child takes up equal space */
+    max-width: calc(33.333% - 20px); /* Each child takes up 1/3 of the space minus gap */
+    box-sizing: border-box;
+}
+
+/* Section titles */
+.content-section h3 {
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+/* Media query for smaller screens (stack content cards vertically) */
+@media (max-width: 900px) {
+    .main-content {
+        flex-direction: column;
+    }
+    
+    .content-section {
+        max-width: 100%; /* Each card takes up full width */
+    }
+}

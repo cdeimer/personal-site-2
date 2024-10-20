@@ -3,6 +3,25 @@
 {% block title %}Home - My Website{% endblock %}
 
 {% block content %}
-    <h1>Welcome to the Home Page</h1>
-    <p>This site will grow over time as I learn more and keep adding to it! Check out the blog tab for updates.</p>
+    <header class="hero">
+        <h1 class="name">Cullen Deimer</h1>
+        <h2 class="subheading">Software Developer</h2>
+    </header>
+
+    <main class="main-content">
+        <section class="content-section" id="welcome">
+            <h3>Welcome!</h3>
+            <p>This site will grow over time as I learn more and keep adding to it! Check out the blog tab for updates.</p>
+        </section>
+
+        <section class="content-section" id="about-me">
+            <h3>About Me</h3>
+            <p>I am a software developer with over 7 years of industry experience, having worked across both frontend and backend systems for organizations of various sizes. My versatility and technical expertise make me a valuable asset to any team.</p>
+        </section>
+
+        <section class="content-section" id="contact">
+            <h3>Contact</h3>
+            <p>Reach out on LinkedIn or click below for my socials. (Coming soon!)</p>
+        </section>
+    </main>
 {% endblock %}
