@@ -11,7 +11,7 @@ body {
 
 /* Navbar container */
 .navbar {
-    background-color: #201a15;
+    background-color: #07393c;
     overflow: hidden;
 }
 
@@ -19,7 +19,7 @@ body {
 .navbar a {
     float: left;
     display: block;
-    color: white;
+    color: #F1F7ED;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -27,8 +27,8 @@ body {
 
 /* Change the color of links on hover */
 .navbar a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #2C666E;
+    color: #F1F7ED;
 }
 
 /* Right-aligned link (optional) */
@@ -50,8 +50,8 @@ body {
 }
 
 footer {
-    background-color: #201a15;
-    color: white;
+    background-color: #07393c;
+    color: #F1F7ED;
     text-align: center;
     position: fixed;
     bottom: 0;
