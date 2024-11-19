@@ -36,3 +36,13 @@ hr {
     border: 1px solid var(--secondary-color);
     margin: 1em 0;
 }
+
+.detail-date {
+    font-size: 1.2em;
+    color: var(--accent-color);
+}
+
+.detail-content {
+    font-size: 1.2em;
+    color: var(--text-color);
+}
