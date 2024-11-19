@@ -1,3 +1,11 @@
+/* variables for the color scheme */
+:root {
+    --primary-color: #121616;
+    --secondary-color: #1e2324;
+    --accent-color: #cf6b28;
+    --text-color: #F2F8EF;
+}
+
 /* main.css */
 body {
     font-family: Arial, sans-serif;
@@ -11,7 +19,7 @@ body {
 
 /* Navbar container */
 .navbar {
-    background-color: #0A5357;
+    background-color: var(--secondary-color);
     overflow: hidden;
 }
 
@@ -19,7 +27,7 @@ body {
 .navbar a {
     float: left;
     display: block;
-    color: #F2F8EF;
+    color: var(--text-color);
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -27,8 +35,8 @@ body {
 
 /* Change the color of links on hover */
 .navbar a:hover {
-    background-color: #0A5357;
-    color: #F2F8EF;
+    background-color: var(--primary-color);
+    color: var(--text-color);
 }
 
 /* Right-aligned link (optional) */
@@ -50,8 +58,8 @@ body {
 }
 
 footer {
-    background-color: #0A5357;
-    color: #F2F8EF;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
     text-align: center;
     position: fixed;
     bottom: 0;

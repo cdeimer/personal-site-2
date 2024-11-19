@@ -1,0 +1,38 @@
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    margin-top: 0.1em;
+    color: var(--text-color);
+}
+
+.post-title {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+}
+
+/* css for a tags within post-title */
+.post-title a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.post-title a:hover {
+    color: var(--accent-color);
+    transition: color 0.2s;
+}
+
+.post-content {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+    color: var(--text-color);
+}
+
+.post-date {
+    font-size: 0.8em;
+    color: var(--accent-color);
+}
+
+hr {
+    border: 1px solid var(--secondary-color);
+    margin: 1em 0;
+}
