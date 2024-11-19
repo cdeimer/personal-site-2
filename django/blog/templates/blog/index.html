@@ -1,14 +1,14 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block title %}Dev Diary{% endblock %}
+{% block title %}Dev Log{% endblock %}
 
 {% block extra_css %}
     <link rel="stylesheet" href="{% static 'css/blog.css' %}">
 {% endblock %}
 
 {% block content %}
-    <h1>Dev Diary</h1>
+    <h1>Dev Log</h1>
     {% if latest_post_list %}
         {% for post in latest_post_list %}
             <div class="post-preview">
